@@ -63,7 +63,6 @@ print(test_data.shape)
 
 """Data Preprocessing"""
 
-#Alteração para melhorar preprocessamento
 #Clean the dataset
 import re
 import nltk
@@ -106,11 +105,6 @@ print(Y_test)
 
 # build the model
 
-"""model = Sequential()
-model.add(Embedding(5000, 128, input_length=200))
-model.add(LSTM(128, dropout=0.2, recurrent_dropout=0.2))
-model.add(Dense(1, activation='sigmoid'))"""
-
 from tensorflow.keras.layers import Bidirectional, Dropout
 
 model = Sequential()
@@ -132,8 +126,6 @@ model.compile(loss='binary_crossentropy', optimizer='adam', metrics=['accuracy']
 
 """Training the model"""
 
-"""model.fit(X_train, Y_train, batch_size=64, epochs=5, validation_split=(0.2))"""
-
 from tensorflow.keras.callbacks import EarlyStopping, ModelCheckpoint
 
 early_stop = EarlyStopping(monitor='val_loss', patience=3, restore_best_weights=True)
@@ -146,15 +138,6 @@ model.fit(X_train, Y_train,
           callbacks=[early_stop, checkpoint])
 
 """Model avaluation"""
-
-"""loss, accuracy = model.evaluate(X_test, Y_test)
-from sklearn.metrics import classification_report, confusion_matrix
-import numpy as np
-
-y_pred = (model.predict(X_test) > 0.5).astype("int32")
-print(classification_report(Y_test, y_pred))
-print(confusion_matrix(Y_test, y_pred))
-print(f'Test Loss: {loss}, Test Accuracy: {accuracy}')"""
 
 loss, accuracy = model.evaluate(X_test, Y_test)
 
@@ -190,8 +173,10 @@ def predict_sentiment(review):
   elif prediction[0][0] < 0.3:
     sentiment = 'negative'
   else:
-    sentiment = 'neutral'
-
+    sentiment = 'neutral'  
+#the problem with forcing a neutral classification is the dataset, which is based on 1s and 0s for positive and negative reviews
+#This makes the neutral predictions difficult to happen, once there's no "medium" categories of reviews
+  
   return sentiment
 
 # example usage
