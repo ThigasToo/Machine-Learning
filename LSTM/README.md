@@ -3,6 +3,8 @@
 ## 📌 Descrição
 Este projeto implementa um modelo **LSTM (Long Short-Term Memory)** para prever os preços de fechamento de uma criptomoeda (Bitcoin) com base em dados históricos.  
 O script **`lstm_bit2.py`** carrega os dados de preços, realiza pré-processamento, treina o modelo e gera previsões tanto para o conjunto de teste quanto para datas futuras.
+
+
 O script **`lstm.py`** é uma versão mais simples de dados históricos das ações (stocks) da empresa Microsoft.
 
 ---
