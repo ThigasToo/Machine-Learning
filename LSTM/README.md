@@ -12,7 +12,7 @@ O script **`lstm.py`** é uma versão mais simples de dados históricos das aç�
 ## 🛠️ Estrutura do Código
 
 1. **Carregamento e Visualização dos Dados**
-   - Leitura do arquivo `bit4.csv`.
+   - Leitura do arquivo `.csv`.
    - Análise exploratória (`head`, `info`, `describe`).
    - Gráficos de preços de abertura e fechamento ao longo do tempo.
 
