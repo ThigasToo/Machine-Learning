@@ -135,3 +135,7 @@ prediction_prob = loaded_model.predict_proba(input_df)
 
 print("Prediction:", "Churn" if prediction[0] == 1 else "No Churn")
 print("Probability:", prediction_prob)
+```
+
+## 📈 Dataset:
+- [Telco Customer Churn Dataset (Kaggle)](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
