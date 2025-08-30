@@ -13,7 +13,7 @@ Este projeto desenvolve um modelo de Machine Learning para detectar transações
 - [Requisitos](#-requisitos)
 - [Como Executar](#-como-executar)
 - [Resultados](#-resultados)
-- [Processo de Melhoria do Modelo de Detecção de Fraude (Passos)](#-processo-de-melhoria)
+- [Processo de Melhoria do Modelo de Detecção de Fraude (Passos)](#-processo-de-melhoria-do-modelo-de-detecção-de-fraude-passos)
 
 ---
 
