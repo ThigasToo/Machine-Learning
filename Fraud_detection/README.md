@@ -1,5 +1,7 @@
 # Detecção de Fraudes em Transações Financeiras
 
+Dataset Kaggle: [Fraud_detection](https://www.kaggle.com/datasets/amanalisiddiqui/fraud-detection-dataset?resource=download)
+
 ## Fraud_detection(1).py
 
 Este projeto desenvolve um modelo de Machine Learning para detectar transações financeiras fraudulentas. Utilizando um dataset sintético que simula transações de um serviço financeiro móvel, o objetivo é construir um classificador capaz de identificar fraudes com base nas características da transação.
