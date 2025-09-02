@@ -5,7 +5,7 @@ Este projeto implementa uma Rede Neural Convolucional (CNN) para classificar ima
 ## 📋 Sumário
 
 - [Visão Geral](#-visão-geral)
-- [Como Funciona](#-como-funciona)
+- [Como Funciona](#%EF%B8%8F-como-funciona)
 - [Funções Principais](#-funções-principais)
 - [Uso para Predição](#-uso-para-predição)
 
