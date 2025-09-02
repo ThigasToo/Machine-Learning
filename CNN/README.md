@@ -62,4 +62,5 @@ predict('cachorrito.jpg')
 Saída esperada (saídas ilustrativas):
 
 Prediction: 0.00123... | cat
+
 Prediction: 0.98765... | dog
