@@ -11,9 +11,9 @@ Este projeto desenvolve um modelo de Machine Learning para detectar transações
 - [Visão Geral](#-visão-geral)
 - [Dataset](#-dataset)
 - [Análise Exploratória de Dados (EDA)](#-análise-exploratória-de-dados-eda)
-- [Metodologia](#metodologia)
-- [Requisitos](#requisitos)
-- [Como Executar](#como-executar)
+- [Metodologia](#-metodologia)
+- [Requisitos](#-requisitos)
+- [Como Executar](#-como-executar)
 - [Resultados](#-resultados)
 - [Processo de Melhoria do Modelo de Detecção de Fraude (Passos)](#processo-de-melhoria-do-modelo-de-detecção-de-fraude-passos)
 
