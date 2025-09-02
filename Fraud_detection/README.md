@@ -125,4 +125,6 @@ Ao final da execução, o pipeline treinado é salvo no arquivo fraud_detection_
      - A precisão de fraude teve um salto impressionante para 64%.
      - O F1-Score (equilíbrio entre precisão e recall) atingiu um ótimo valor de 0.77, demonstrando um modelo eficaz e confiável.
 
+<img width="584" height="392" alt="Captura de tela 2025-09-01 221945" src="https://github.com/user-attachments/assets/172d4afc-1277-4ed7-a07e-23284dd861ca" />
+
 4. Conclusão: Saímos de um modelo inicial ineficaz para um modelo de alta performance, primeiro corrigindo o desbalanceamento dos dados com SMOTE e, em seguida, aplicando um algoritmo mais adequado (Random Forest) para capturar a complexidade do problema.
