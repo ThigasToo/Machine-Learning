@@ -8,7 +8,7 @@ Este projeto desenvolve um modelo de Machine Learning para detectar transações
 
 ## 📋 Sumário
 
-- [Visão Geral](#visão-geral)
+- [Visão Geral](#-visão-geral)
 - [Dataset](#-dataset)
 - [Análise Exploratória de Dados (EDA)](#-análise-exploratória-de-dados-eda)
 - [Metodologia](#metodologia)
