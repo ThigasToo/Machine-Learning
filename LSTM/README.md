@@ -73,6 +73,10 @@ plt.legend()
 plt.show()
 ```
 
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/42405d30-ba74-4fdb-baf5-078784dc4f56" />
+
+*A volatilidade do Bitcoin o torna um ativo de difícil projeção por modelos mais simples como esse. O modelo terá melhor aproveitamento em ações ou ativos menos voláteis
+
 ## 🚀 Como Usar
 1. Garanta que o arquivo bit4.csv está no mesmo diretório do script.
 
